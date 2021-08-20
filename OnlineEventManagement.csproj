@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60A5414C-D0E6-4B80-8FF2-606A5C5F8407}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineEventManagement</RootNamespace>
+    <AssemblyName>OnlineEventManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\_frmAdminHome.aspx" />
+    <Content Include="Admin\_frmEventDetails.aspx" />
+    <Content Include="Admin\_frmEventType.aspx" />
+    <Content Include="Admin\_frmViewFeedback.aspx" />
+    <Content Include="Admin\_frmViewRegisteredOrganizer.aspx" />
+    <Content Include="Admin\_frmViewRegisteredUser.aspx" />
+    <Content Include="images\797.png" />
+    <Content Include="images\arrow-next.png" />
+    <Content Include="images\arrow-prev.png" />
+    <Content Include="images\badmenton1.jpg" />
+    <Content Include="images\basket ball.jpg" />
+    <Content Include="images\bg-black.jpg" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\border.png" />
+    <Content Include="images\boxing1.jpg" />
+    <Content Include="images\browsers.png" />
+    <Content Include="images\content-bg.png" />
+    <Content Include="images\content-bg2.png" />
+    <Content Include="images\controls.png" />
+    <Content Include="images\Cricket-Tournament.jpg" />
+    <Content Include="images\cricket.jpg" />
+    <Content Include="images\delete img1.png" />
+    <Content Include="images\dravid1.jpg" />
+    <Content Include="images\edit-icon.png" />
+    <Content Include="images\email.png" />
+    <Content Include="images\email_32.png" />
+    <Content Include="images\event.jpg" />
+    <Content Include="images\facebook_32.png" />
+    <Content Include="images\Fax.jpg" />
+    <Content Include="images\fern.jpg" />
+    <Content Include="images\foot.jpg" />
+    <Content Include="images\football.png" />
+    <Content Include="images\football1.jpg" />
+    <Content Include="images\gallery1-big.jpg" />
+    <Content Include="images\gallery1.jpg" />
+    <Content Include="images\gallery2-big.jpg" />
+    <Content Include="images\gallery2.jpg" />
+    <Content Include="images\gallery3-big.jpg" />
+    <Content Include="images\gallery3.jpg" />
+    <Content Include="images\gallery4-big.jpg" />
+    <Content Include="images\gallery4.jpg" />
+    <Content Include="images\gallery5-big.jpg" />
+    <Content Include="images\gallery5.jpg" />
+    <Content Include="images\gallery6-big.jpg" />
+    <Content Include="images\gallery6.jpg" />
+    <Content Include="images\gallery7-big.jpg" />
+    <Content Include="images\gallery7.jpg" />
+    <Content Include="images\gallery8-big.jpg" />
+    <Content Include="images\gallery8.jpg" />
+    <Content Include="images\game.jpg" />
+    <Content Include="images\garden.jpg" />
+    <Content Include="images\hockey.jpg" />
+    <Content Include="images\hocky1.jpg" />
+    <Content Include="images\home_32.png" />
+    <Content Include="images\ie6\borderBottomCenter.png" />
+    <Content Include="images\ie6\borderBottomLeft.png" />
+    <Content Include="images\ie6\borderBottomRight.png" />
+    <Content Include="images\ie6\borderMiddleLeft.png" />
+    <Content Include="images\ie6\borderMiddleRight.png" />
+    <Content Include="images\ie6\borderTopCenter.png" />
+    <Content Include="images\ie6\borderTopLeft.png" />
+    <Content Include="images\ie6\borderTopRight.png" />
+    <Content Include="images\indianhockey.jpg" />
+    <Content Include="images\info_button_32.png" />
+    <Content Include="images\kabaddi1.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\loading_background.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\map.png" />
+    <Content Include="images\med-thumb.png" />
+    <Content Include="images\nav-arrow-down.png" />
+    <Content Include="images\office1.jpg" />
+    <Content Include="images\online1.JPG" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\pagination.png" />
+    <Content Include="images\party.jpg" />
+    <Content Include="images\Phillip-Island.jpg" />
+    <Content Include="images\phone.jpg" />
+    <Content Include="images\phone.png" />
+    <Content Include="images\players.jpg" />
+    <Content Include="images\print.png" />
+    <Content Include="images\query-icon.jpg" />
+    <Content Include="images\register.JPG" />
+    <Content Include="images\rss_32.png" />
+    <Content Include="images\search_32.png" />
+    <Content Include="images\srikanth_pti_m.jpg" />
+    <Content Include="images\subscribe-single.png" />
+    <Content Include="images\Telugu-Titans.jpg" />
+    <Content Include="images\tenish1.jpg" />
+    <Content Include="images\textbox-bg.png" />
+    <Content Include="images\thumb.png" />
+    <Content Include="images\Torus1.JPG" />
+    <Content Include="images\trees.jpg" />
+    <Content Include="images\twitter_32.png" />
+    <Content Include="images\valiball.jpg" />
+    <Content Include="images\valiball1.jpg" />
+    <Content Include="jquery-migrate-1.4.1.js" />
+    <Content Include="jquery-migrate-3.0.0.js" />
+    <Content Include="Organizer\_frmManageEvent.aspx" />
+    <Content Include="Organizer\_frmManageEvents.aspx" />
+    <Content Include="Organizer\_frmOrganizerHome.aspx" />
+    <Content Include="Organizer\_frmOrgQuery.aspx" />
+    <Content Include="Organizer\_frmRegisterList.aspx" />
+    <Content Include="Organizer\_frmUpdateProfile.aspx" />
+    <Content Include="scripts\cufon.js" />
+    <Content Include="scripts\jquery.colorbox-min.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\slides.min.jquery.js" />
+    <Content Include="scripts\TeXGyreAdventor_400.font.js" />
+    <Content Include="styles\960.css" />
+    <Content Include="styles\colorbox.css" />
+    <Content Include="styles\global.css" />
+    <Content Include="styles\reset.css" />
+    <Content Include="styles\style.css" />
+    <Content Include="styles\text.css" />
+    <Content Include="User\_frmCheckStatus.aspx" />
+    <Content Include="User\_frmGetRegEvent.aspx" />
+    <Content Include="User\_frmPostFeedback.aspx" />
+    <Content Include="User\_frmQuery.aspx" />
+    <Content Include="User\_frmUserHome.aspx" />
+    <Content Include="User\_frmUserUpdateProfile.aspx" />
+    <Content Include="Visitor\Images\maheshbabu.jpg" />
+    <Content Include="Visitor\Images\prabhas.jpg" />
+    <Content Include="Visitor\Images\Sudeep.jpg" />
+    <Content Include="Visitor\Images\vikram.jpg" />
+    <Content Include="Visitor\_frmAbout.aspx" />
+    <Content Include="Visitor\_frmContact.aspx" />
+    <Content Include="Visitor\_frmGallery.aspx" />
+    <Content Include="Visitor\_frmLogin.aspx" />
+    <Content Include="Visitor\_frmRegistration.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmAdminHome.aspx.cs">
+      <DependentUpon>_frmAdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmAdminHome.aspx.designer.cs">
+      <DependentUpon>_frmAdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmEventDetails.aspx.cs">
+      <DependentUpon>_frmEventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmEventDetails.aspx.designer.cs">
+      <DependentUpon>_frmEventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmEventType.aspx.cs">
+      <DependentUpon>_frmEventType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmEventType.aspx.designer.cs">
+      <DependentUpon>_frmEventType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmViewFeedback.aspx.cs">
+      <DependentUpon>_frmViewFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmViewFeedback.aspx.designer.cs">
+      <DependentUpon>_frmViewFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmViewRegisteredOrganizer.aspx.cs">
+      <DependentUpon>_frmViewRegisteredOrganizer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmViewRegisteredOrganizer.aspx.designer.cs">
+      <DependentUpon>_frmViewRegisteredOrganizer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmViewRegisteredUser.aspx.cs">
+      <DependentUpon>_frmViewRegisteredUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmViewRegisteredUser.aspx.designer.cs">
+      <DependentUpon>_frmViewRegisteredUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BL.cs" />
+    <Compile Include="DL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer\organizer.Master.cs">
+      <DependentUpon>organizer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organizer\organizer.Master.designer.cs">
+      <DependentUpon>organizer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer\_frmManageEvent.aspx.cs">
+      <DependentUpon>_frmManageEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organizer\_frmManageEvent.aspx.designer.cs">
+      <DependentUpon>_frmManageEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer\_frmManageEvents.aspx.cs">
+      <DependentUpon>_frmManageEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organizer\_frmManageEvents.aspx.designer.cs">
+      <DependentUpon>_frmManageEvents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer\_frmOrganizerHome.aspx.cs">
+      <DependentUpon>_frmOrganizerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organizer\_frmOrganizerHome.aspx.designer.cs">
+      <DependentUpon>_frmOrganizerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer\_frmOrgQuery.aspx.cs">
+      <DependentUpon>_frmOrgQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organizer\_frmOrgQuery.aspx.designer.cs">
+      <DependentUpon>_frmOrgQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer\_frmRegisterList.aspx.cs">
+      <DependentUpon>_frmRegisterList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organizer\_frmRegisterList.aspx.designer.cs">
+      <DependentUpon>_frmRegisterList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer\_frmUpdateProfile.aspx.cs">
+      <DependentUpon>_frmUpdateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organizer\_frmUpdateProfile.aspx.designer.cs">
+      <DependentUpon>_frmUpdateProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="User\_frmCheckStatus.aspx.cs">
+      <DependentUpon>_frmCheckStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\_frmCheckStatus.aspx.designer.cs">
+      <DependentUpon>_frmCheckStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\_frmGetRegEvent.aspx.cs">
+      <DependentUpon>_frmGetRegEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\_frmGetRegEvent.aspx.designer.cs">
+      <DependentUpon>_frmGetRegEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\_frmPostFeedback.aspx.cs">
+      <DependentUpon>_frmPostFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\_frmPostFeedback.aspx.designer.cs">
+      <DependentUpon>_frmPostFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\_frmQuery.aspx.cs">
+      <DependentUpon>_frmQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\_frmQuery.aspx.designer.cs">
+      <DependentUpon>_frmQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\_frmUserHome.aspx.cs">
+      <DependentUpon>_frmUserHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\_frmUserHome.aspx.designer.cs">
+      <DependentUpon>_frmUserHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\_frmUserUpdateProfile.aspx.cs">
+      <DependentUpon>_frmUserUpdateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\_frmUserUpdateProfile.aspx.designer.cs">
+      <DependentUpon>_frmUserUpdateProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Content.Master.cs">
+      <DependentUpon>Content.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Content.Master.designer.cs">
+      <DependentUpon>Content.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\gallery.Master.cs">
+      <DependentUpon>gallery.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\gallery.Master.designer.cs">
+      <DependentUpon>gallery.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Visitor.Master.cs">
+      <DependentUpon>Visitor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Visitor.Master.designer.cs">
+      <DependentUpon>Visitor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\_frmAbout.aspx.cs">
+      <DependentUpon>_frmAbout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\_frmAbout.aspx.designer.cs">
+      <DependentUpon>_frmAbout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\_frmContact.aspx.cs">
+      <DependentUpon>_frmContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\_frmContact.aspx.designer.cs">
+      <DependentUpon>_frmContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\_frmGallery.aspx.cs">
+      <DependentUpon>_frmGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\_frmGallery.aspx.designer.cs">
+      <DependentUpon>_frmGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\_frmLogin.aspx.cs">
+      <DependentUpon>_frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\_frmLogin.aspx.designer.cs">
+      <DependentUpon>_frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\_frmRegistration.aspx.cs">
+      <DependentUpon>_frmRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\_frmRegistration.aspx.designer.cs">
+      <DependentUpon>_frmRegistration.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\admin.Master" />
+    <None Include="DL.xsc">
+      <DependentUpon>DL.xsd</DependentUpon>
+    </None>
+    <None Include="DL.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DL.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DL.xss">
+      <DependentUpon>DL.xsd</DependentUpon>
+    </None>
+    <None Include="images\ie6\Thumbs.db" />
+    <None Include="images\Thumbs.db" />
+    <Content Include="Visitor\Visitor.Master" />
+    <Content Include="Visitor\Content.Master" />
+    <Content Include="Organizer\organizer.Master" />
+    <Content Include="User\User.Master" />
+    <Content Include="Visitor\gallery.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3469</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
